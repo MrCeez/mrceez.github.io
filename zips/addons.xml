@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.mrceez" name="MrCeez Repo" version="1.0" provider-name="MrCeez">
+	<extension point="xbmc.addon.repository" name="Example Repository">
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/MrCeez/Kodi-Addon/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MrCeez/Kodi-Addon/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MrCeez/Kodi-Addon/master/zips/</datadir>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>MrCeez Repo</summary>
+		<description>1st Build</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
